@@ -1,3 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #444242;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.menu-idiom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 121.33px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+.menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 35px;
+  margin-right: 8px;
+}
+
+.menu span {
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  margin-bottom: 3px;
 }
