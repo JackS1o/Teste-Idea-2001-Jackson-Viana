@@ -37,6 +37,12 @@ body {
   margin-right: 8px;
 }
 
+.menu-idiom img {
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+}
+
 .menu span {
   display: block;
   height: 5px;
@@ -44,4 +50,22 @@ body {
   border-radius: 30px;
   background-color: #FFFFFF;
   margin-bottom: 3px;
+}
+
+.div-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-buttons button {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  border-color: #FA9401;
+  background-color: transparent;
+  width: 265px;
+  height: 50px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
 }
