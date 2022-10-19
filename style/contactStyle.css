@@ -79,10 +79,15 @@
 .contact-footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 50px;
+  align-items: center;  
+  width: 100%;
   background-color: #FA9401;
   color: #FFFFFF;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .contact-address {
