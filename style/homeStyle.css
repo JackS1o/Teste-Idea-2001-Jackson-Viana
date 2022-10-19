@@ -138,7 +138,7 @@ body {
   }
 }
 
-@media (max-width: 640px) and (orientation: landscape) {
+@media (min-width: 640px) and (max-width: 667px) and (orientation: landscape) {
   body {
     height: 100vh;
   }
