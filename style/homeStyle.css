@@ -66,6 +66,11 @@ body {
   font-size: 16px;
 }
 
+.logo {
+  height: 100px;
+  margin-top: 30px;
+}
+
 .div-buttons .btn-search {
   display: flex;
   justify-content: center;
@@ -102,11 +107,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 65vh;
-}
-
-.container img {
-  margin-top: 1px;
+  height: 45vh;
 }
 
 .footer {
