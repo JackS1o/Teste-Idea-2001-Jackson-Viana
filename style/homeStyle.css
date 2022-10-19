@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
   font-family: Roboto, sans-serif;
   text-decoration: none;
 }
@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 20px;
   width: 121.33px;
   height: 40px;
@@ -54,7 +54,7 @@ body {
   height: 5px;
   width: 100%;
   border-radius: 30px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-bottom: 3px;
 }
 
@@ -76,7 +76,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FA9401;
+  background-color: #fa9401;
 }
 
 .btn-search img {
@@ -88,11 +88,11 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  border-color: #FA9401;
+  border-color: #fa9401;
   background-color: transparent;
   width: 265px;
   height: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 8px;
   font-weight: 700;
   font-size: 16px;
@@ -108,14 +108,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 45vh;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
   height: 50px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .footer img {
@@ -124,12 +124,12 @@ body {
   margin-right: 20px;
 }
 
-@media(max-width: 320px) {
+@media (max-width: 320px) {
   body {
-    background-color: #FFB64E;
+    background-color: #ffb64e;
   }
   .div-buttons .btn-search {
-    background-color: #FA9401;
+    background-color: #fa9401;
     border-color: #444242;
   }
   .div-buttons div button {
@@ -138,7 +138,7 @@ body {
   }
 }
 
-@media(max-width: 640px) and (orientation: landscape) {
+@media (max-width: 640px) and (orientation: landscape) {
   .div-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -159,14 +159,14 @@ body {
   }
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .footer {
-    margin-top: 210px;
+    margin-top: 40vh;
   }
 }
 
-@media(max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .footer {
-    margin-top: 120px;
+    height: 50px;
   }
 }
