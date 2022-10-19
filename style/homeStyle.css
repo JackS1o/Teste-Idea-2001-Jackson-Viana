@@ -139,10 +139,15 @@ body {
 }
 
 @media (max-width: 640px) and (orientation: landscape) {
+  body {
+    height: 100vh;
+  }
+
   .div-buttons {
     display: flex;
     flex-wrap: wrap;
   }
+  
   .div-buttons div {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +156,8 @@ body {
   }
 
   .div-buttons div button {
-    margin: 7.5px;
+    margin: 5px;
+    height: 45px;
   }
 
   .footer {
