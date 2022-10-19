@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-y: hidden;
-  overflow-x: hidden;
   font-family: Roboto, sans-serif;
   text-decoration: none;
 }
@@ -45,7 +43,6 @@
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  height: 80vh;
 }
 
 .container div {
