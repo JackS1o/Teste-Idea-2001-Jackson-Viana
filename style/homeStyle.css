@@ -27,6 +27,8 @@ body {
   width: 121.33px;
   height: 40px;
   margin-left: 15px;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .menu {
@@ -100,7 +102,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 65vh;
 }
 
 .container img {
@@ -111,7 +113,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 50px;
 }
 
 .footer img {
