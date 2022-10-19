@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
+  overflow-x: hidden;
   font-family: Roboto, sans-serif;
   text-decoration: none;
 }
@@ -62,7 +63,7 @@
 }
 
 .container hr {
-  width: 95%;
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 17.5px;
@@ -73,14 +74,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100vw;
+  width: 95vw;
 }
 
 .contact-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 50px;
   background-color: #FA9401;
   color: #FFFFFF;
 }
@@ -94,4 +95,14 @@
   font-size: 16px;
   color: #FA9401;
   margin: 15px 15.5px 15.5px 15px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-header div {
+  padding: 5px;
 }

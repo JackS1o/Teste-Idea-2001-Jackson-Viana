@@ -128,13 +128,13 @@ body {
     background-color: #FA9401;
     border-color: #444242;
   }
-  .div-buttons button {
+  .div-buttons div button {
     background-color: #444242;
     border-color: white;
   }
 }
 
-@media(max-width: 640px) and (min-width: 360px) {
+@media(max-width: 640px) and (orientation: landscape) {
   .div-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -147,10 +147,22 @@ body {
   }
 
   .div-buttons div button {
-    margin-right: 15px;
+    margin: 7.5px;
   }
 
   .footer {
     display: none;
+  }
+}
+
+@media(max-width: 768px){
+  .footer {
+    margin-top: 90px;
+  }
+}
+
+@media(max-width: 1024px) and (orientation: landscape) {
+  .footer {
+    margin-top: 20px;
   }
 }
