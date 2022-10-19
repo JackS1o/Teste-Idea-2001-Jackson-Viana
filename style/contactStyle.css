@@ -6,10 +6,6 @@
   text-decoration: none;
 }
 
-body {
-  height: 100vh;
-}
-
 .contact-header {
   display: flex;
   justify-content: space-between;
@@ -74,6 +70,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 95vw;
 }
 
 .contact-footer {
@@ -117,6 +114,9 @@ body {
 
 @media (max-width: 640px) and (orientation: landscape) {
   body {
-    height: 90vh;
+    height: 80vh;
+  }
+  .contact-footer {
+    display: none;
   }
 }
