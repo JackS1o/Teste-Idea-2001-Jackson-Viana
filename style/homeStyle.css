@@ -26,7 +26,7 @@ body {
   border-radius: 20px;
   width: 121.33px;
   height: 40px;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 .menu {
@@ -37,7 +37,7 @@ body {
   align-items: center;
   height: 30px;
   width: 35px;
-  margin-right: 8px;
+  margin-right: 15px;
 }
 
 .menu-idiom img {
@@ -75,11 +75,11 @@ body {
   margin-right: 11px;
 }
 
-.div-buttons button {
+.div-buttons div button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 50px;
   border-color: #FA9401;
   background-color: transparent;
   width: 265px;
@@ -132,8 +132,25 @@ body {
     background-color: #444242;
     border-color: white;
   }
-  .div-buttons button:focus {
-    background-color: #7a2f2f;
-    color: #56ac56;
+}
+
+@media(max-width: 640px) and (min-width: 360px) {
+  .div-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div-buttons div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-buttons div button {
+    margin-right: 15px;
+  }
+
+  .footer {
+    display: none;
   }
 }
