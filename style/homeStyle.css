@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* overflow-y: hidden; */
+  font-family: Roboto, sans-serif;
 }
 
 body {
@@ -58,13 +59,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .div-buttons .btn-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #FA9401;
 }
 
+.btn-search img {
+  margin-right: 11px;
+}
+
 .div-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 30px;
   border-color: #FA9401;
   background-color: transparent;
@@ -72,6 +85,12 @@ body {
   height: 50px;
   color: #FFFFFF;
   margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.div-buttons button img {
+  margin-right: 11px;
 }
 
 .container {

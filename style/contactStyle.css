@@ -36,3 +36,31 @@
   background-color: #FFFFFF;
   margin-bottom: 3px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  height: 75vh;
+}
+
+.container div {
+  display: flex;
+  margin-left: 10px;
+}
+
+.contacts-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #FA9401;
+}
